@@ -2,7 +2,7 @@ from requests import get
 from pprint import PrettyPrinter
 
 BASE_URL = "https://free.currconv.com/"
-API_KEY = "562ddaf40c95f5d58108"
+API_KEY = "API_KEY"
 
 printer = PrettyPrinter()
 
@@ -84,5 +84,6 @@ def main():
             exchange_rate(currency1, currency2)
         else:
             print("Unrecognized command!")
+
 
 main()
